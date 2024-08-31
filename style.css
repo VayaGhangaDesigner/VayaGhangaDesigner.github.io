@@ -1,0 +1,97 @@
+body {
+ /* background-color:#151E21; */
+ background-image:url(./img/fondo.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-family: "JMH Typewriter";
+ border:black 6px solid ;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    background: rgb(137,0,249);
+    background: linear-gradient(90deg, rgba(137,0,249,1) 0%, rgba(255,238,0,1) 100%);
+}
+
+#cuerpo{
+    /*background-color: white;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.topnav li {
+    float: left;
+    margin: 8px;
+
+}
+
+.icon{
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+}
+.icon:hover{
+    opacity: 0.26;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    transition: transform .2s;
+    width: 400px;
+
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.titulo1{
+    color: white;
+}
+.intro{
+
+    background-color: black; 
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.dedi {
+    display: flex;
+    justify-content: center;
+}
+.explidedi{
+    background-color: black;
+   color:yellow;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.expliregal{
+    background-color: black;
+    color: purple;
+
+}
+.dedicatoria_web {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    transition: transform .2s;
+}
+.dedicatoria_web:hover{
+    transform: scale(0.5);
+}
+
+.cheque_web{
+    width: 400px;
+    transition: transform .2s;
+}
+
+.cheque_web:hover{
+
+    transform:scale(0.5);
+}
+
+.cartitas{
+
+   background-color: transparent; 
+   border: transparent;
+} 
+
